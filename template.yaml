@@ -1,9 +1,9 @@
-AWSTemplateFormatVersion: '2010-09-09'
+   AWSTemplateFormatVersion: '2010-09-09'
 
    Resources:
      MyAppBucket:
        Type: AWS::S3::Bucket
        Properties:
-         BucketName: nihon2026-bucket
+         BucketName: my-new-s-bucket-2026
          VersioningConfiguration:
            Status: Enabled
